@@ -11,26 +11,23 @@ data<-read_excel("Zoom/Real estate valuation data set EDA task .xlsx")
 
 colnames(data)<- c("No","Transaction_date","House_age","Distance_MRT",
                    "Convenience_Stores","Latitude","Longitude","Price")
-#changed the names of the columns to make it more concise 
-#and easy to work with
+#changed the names of the columns to make it more concise and easy to work with
 
 colSums(is.na(data))
-#double check that there are no missing data by asking to check for values
-#that are not available
+#double check that there are no missing data by asking to check for values that are not available
 
 data$Price<- data$Price/3.3
 data$Price
-#changed the units from 10000NTD/ping into 10000NTD/m^2 using conversion
-#Price here is actually price per meter square 
+#changed the units from 10000NTD/ping into 10000NTD/m^2 using conversion Price here is price per meter square 
 
 data<- data[,-c(6, 7)]
-str(data)#check we have removed the unwanted columns
-# removed the latitude and longitude as I want to focus on mainly the 
-#House_age, Distance_MRT and Convenience_store and compare these 3
-#variables to the house price.
+str(data)
+#check we have removed the unwanted columns
+#removed the latitude and longitude as I want to focus on mainly the House_age, Distance_MRT and Convenience_store and 
+#compare these 3 variables to the house price.
 
 head(data)
-# used to quickly view the first few data values to check that
+#used to quickly view the first few data values to check that
 #the data is loaded in properly
 str(data)
 #used to check the type of data we are working with.
