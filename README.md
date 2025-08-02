@@ -8,6 +8,7 @@ install.packages("ggplot2")
 library(readxl)
 
 data<-read_excel("Zoom/Real estate valuation data set EDA task .xlsx")
+#replace brackets with where the excel file containing the data is.
 #used the readx1 package and read_excel command to bring the excel data into r
 
 colnames(data)<- c("No","Transaction_date","House_age","Distance_MRT",
