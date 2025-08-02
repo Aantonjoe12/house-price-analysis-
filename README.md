@@ -1,5 +1,5 @@
 # house-price-analysis-
-R-code performing EDA &amp; regression models on real estate valuation data. 
+#R-code performing EDA &amp; regression models on real estate valuation data. 
 
 install.packages("readx1")
 install.packages("moments")
