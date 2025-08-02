@@ -1,4 +1,4 @@
-#house-price-analysis-
+#house-price-analysis
 #R-code performing EDA & linear regression models on real estate valuation data. 
 
 install.packages("readx1")
