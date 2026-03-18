@@ -20,7 +20,7 @@ The following Python libraries are required to run the script.
 - matplotlib: For creating visulisations and plots.
 - seaborn: For advdanced statisitcal visulaisations.
 - scikit-learn: For building and evaluating various regression models.
-- openpyxl: For reading Excel ```.xlsx``` files through ```pandas.read_excel().```
+- openpyxl: For reading Excel ```.xlsx``` files through ```pd.read_excel().```
 
 ### Dataset Description
 - The data consists of 414 houses that have been purchased between the year 2012 and 2013. 
