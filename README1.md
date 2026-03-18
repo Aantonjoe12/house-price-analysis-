@@ -90,11 +90,11 @@ The results show clear differences in model performance:
 
 | Model             | R^2   | 
 |-------------------|-------|
-| Linear Regression | 0.65  | 
-| Ridge Regression  |      |  
-| Lasso Regression  | 
-| Decision Tree     |     | 
-| Random Forest     |     |  
+| Linear Regression | 0.6509 | 
+| Ridge Regression  | 0.6509 |  
+| Lasso Regression  | 0.6499 |
+| Decision Tree     | 0.7709 |  
+| Random Forest     | 0.8086 |  
 
   
 
