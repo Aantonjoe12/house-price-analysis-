@@ -53,7 +53,7 @@ Several regression models were implemented to compare performance and identify t
 A baseline model to understand linear relationships between features and price.
 
 - **Ridge & Lasso Regression**  
-Regularised models to reduce overfitting and handle multicollinearity.
+Regularised models to reduce overfitting and handle multicollinearity(when features are highly correlated with each other).
 
 - **Decision Tree Regressor**  
 A non‑linear model that captures complex interactions between features.
@@ -84,9 +84,9 @@ These metrics together give a balanced view of model performance:
 
 ### Results Summary
 The results show clear differences in model performance:
--Linear models provided a good baseline but struggled with non‑linear relationships.
--Tree‑based models, particularly Random Forest, achieved the best predictive accuracy.
--Distance to the nearest MRT station and number of convenience stores were among the most influential features.
+- Linear models provided a good baseline but struggled with non‑linear relationships.
+- Tree‑based models, particularly Random Forest, achieved the best predictive accuracy.
+- Distance to the nearest MRT station and number of convenience stores were among the most influential features.
 
 | Model             | R^2   | 
 |-------------------|-------|
@@ -95,6 +95,19 @@ The results show clear differences in model performance:
 | Lasso Regression  | 0.6499 |
 | Decision Tree     | 0.7709 |  
 | Random Forest     | 0.8086 |  
+
+**Conclusion**
+The linear models (Linear, Ridge, and Lasso) all achieved similar R² values around 0.65, indicating that the relationship between the features and house prices is not well captured by a purely linear approach. Ridge and Lasso did not provide meaningful improvements, suggesting that the dataset does not suffer from strong multicollinearity or coefficient instability.
+
+In contrast, the Decision Tree model achieved a noticeably higher R² of 0.77, showing that non‑linear relationships and threshold effects play a significant role in predicting house prices.
+
+The best performance came from the Random Forest, with an R² of 0.81. This improvement demonstrates the benefit of combining multiple decision trees, allowing the model to capture complex patterns while reducing overfitting. Overall, ensemble tree‑based methods provided the most accurate predictions for this dataset.
+
+### Author
+Adaan Antonjoe   
+Actuarial Science Graduate  
+Github: https://github.com/Aantonjoe12  
+LinkedIn: https://www.linkedin.com/in/adaan/  
 
   
 
