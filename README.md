@@ -6,7 +6,7 @@ features using a real estate valuation dataset. The goal is to build and evaluat
 model that can predict house prices based on these features. 
 
 ### Table of Contents
-- requirements
+- Requirements
 - Dataset Description
 - Explatory Data Analysis
 - Modelling Techniques
