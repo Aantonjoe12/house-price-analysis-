@@ -102,8 +102,4 @@ In contrast, the Decision Tree model achieved a noticeably higher R² of 0.77, s
 
 The best performance came from the Random Forest, with an R² of 0.81. This improvement demonstrates the benefit of combining multiple decision trees, allowing the model to capture complex patterns while reducing overfitting. Overall, ensemble tree‑based methods provided the most accurate predictions for this dataset.
 
-### Author
-Adaan Antonjoe   
-Actuarial Science Graduate  
-Github: https://github.com/Aantonjoe12  
-LinkedIn: https://www.linkedin.com/in/adaan/  
+ 
